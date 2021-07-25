@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+ 
+.inputField{
+    position: absolute;
+    left: 10%;
+    margin: 5px 5px;
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px; 
+    color: black;
+}
+
+.location{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fas{
+  font-size: 70px;
+}
+
+.tempt{
+  padding-left: 20px;
+}
+
+.temp_max{
+    margin-bottom: 30px;
+}
+
+.temp_min{
+    margin-bottom: 30px;
+}
+
+.noData{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.box-info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+fa-wind{
+    width: 50px;
+    height: 50px;
+}
+
+.nature .nature-info{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 768px) and (max-width:1200px){
+    html{
+        font-size: 70%;
+    }
+
+    .location{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .tempt{
+        font-size: 30px;
+    }
+
+    .tempmin_max{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width : 500px) and (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+}
